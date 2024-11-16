@@ -11,3 +11,4 @@ para permitir a las empresas asignar disponibilidad y gestionar citas de sus ser
   Scenario: Solicitud fallida por disponibilidad no asignada
     Dado que el cliente envía una solicitud GET al endpoint /api/citas sin que haya disponibilidad
     Entonces el sistema debe devolver un código de estado 404 indicando que no hay citas disponibles.
+
